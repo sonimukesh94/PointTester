@@ -1,0 +1,1 @@
+javaw -jar PointTester.jar responseTimeout=30000

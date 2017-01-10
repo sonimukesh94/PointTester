@@ -1,0 +1,22 @@
+<COMMAND_XML_LIST count="5">
+   <COMMAND1>
+      <NAME>startSession</NAME>
+      <COUNTER>1</COUNTER>
+   </COMMAND1>
+   <COMMAND2>
+      <NAME>LIAdd</NAME>
+      <COUNTER>2</COUNTER>
+   </COMMAND2>
+   <COMMAND3>
+      <NAME>LIOffer</NAME>
+      <COUNTER>2</COUNTER>
+   </COMMAND3>
+   <COMMAND4>
+      <NAME>LIRemove</NAME>
+      <COUNTER>1</COUNTER>
+   </COMMAND4>
+   <COMMAND5>
+      <NAME>finishSession</NAME>
+      <COUNTER>1</COUNTER>
+   </COMMAND5>
+</COMMAND_XML_LIST>

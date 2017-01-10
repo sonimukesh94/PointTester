@@ -1,0 +1,10 @@
+<COMMAND_XML_LIST count="2">
+   <COMMAND1>
+      <NAME>startSession</NAME>
+      <COUNTER>1</COUNTER>
+   </COMMAND1>
+   <COMMAND2>
+      <NAME>finishSession</NAME>
+      <COUNTER>1</COUNTER>
+   </COMMAND2>
+</COMMAND_XML_LIST>

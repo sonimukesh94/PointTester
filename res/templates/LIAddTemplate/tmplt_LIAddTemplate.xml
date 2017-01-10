@@ -1,0 +1,18 @@
+<COMMAND_XML_LIST count="4">
+   <COMMAND1>
+      <NAME>startSession</NAME>
+      <COUNTER>1</COUNTER>
+   </COMMAND1>
+   <COMMAND2>
+      <NAME>LIAdd</NAME>
+      <COUNTER>2</COUNTER>
+   </COMMAND2>
+   <COMMAND3>
+      <NAME>LIOverride</NAME>
+      <COUNTER>2</COUNTER>
+   </COMMAND3>
+   <COMMAND4>
+      <NAME>finishSession</NAME>
+      <COUNTER>1</COUNTER>
+   </COMMAND4>
+</COMMAND_XML_LIST>

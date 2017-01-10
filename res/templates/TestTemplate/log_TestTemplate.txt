@@ -1,0 +1,81 @@
+2016/12/30 18:34:45:389
+<TRANSACTION>
+<FUNCTION_TYPE>SESSION</FUNCTION_TYPE>
+<COMMAND>START</COMMAND>
+<INVOICE>123</INVOICE>
+<MAC_LABEL>P_173</MAC_LABEL>
+   <COUNTER>8</COUNTER>
+   <MAC>JUN2F3lDgXtHHhzB93rkntYUF3p8Qp5HlA7FikMXdzI=</MAC>
+</TRANSACTION>
+
+2016/12/30 18:34:46:382
+<RESPONSE>
+   <RESPONSE_TEXT>Session Started</RESPONSE_TEXT>
+   <RESULT>OK</RESULT>
+   <RESULT_CODE>-1</RESULT_CODE>
+   <TERMINATION_STATUS>SUCCESS</TERMINATION_STATUS>
+   <COUNTER>8</COUNTER>
+</RESPONSE>
+
+2016/12/30 18:34:46:388
+<TRANSACTION>
+  <FUNCTION_TYPE>PAYMENT</FUNCTION_TYPE>
+  <COMMAND>CAPTURE</COMMAND>
+  <TRANS_AMOUNT>1.00</TRANS_AMOUNT>
+  <MANUAL_ENTRY>FALSE</MANUAL_ENTRY>
+  <FORCE_FLAG>FALSE</FORCE_FLAG>
+<MAC_LABEL>P_173</MAC_LABEL>
+   <COUNTER>9</COUNTER>
+   <MAC>L930WbBwkUfp9uJn1YLjwZDTPxul28hB8RX0gmygWFY=</MAC>
+</TRANSACTION>
+
+2016/12/30 18:35:01:272
+<RESPONSE>
+   <RESPONSE_TEXT>Cancelled by CUSTOMER</RESPONSE_TEXT>
+   <RESULT>CANCELLED</RESULT>
+   <RESULT_CODE>59001</RESULT_CODE>
+   <TERMINATION_STATUS>FAILURE</TERMINATION_STATUS>
+   <COUNTER>9</COUNTER>
+   <RECEIPT_DATA>
+      <RECEIPT>
+         <TEXTLINE>                                                  </TEXTLINE>
+         <TEXTLINE>                                                  </TEXTLINE>
+         <TEXTLINE>           Point Solutions Ver 2.19.24            </TEXTLINE>
+         <TEXTLINE>                     PHASE 1                      </TEXTLINE>
+         <TEXTLINE>                 BUSINESS RECEIPT                 </TEXTLINE>
+         <TEXTLINE>                                                  </TEXTLINE>
+         <TEXTLINE>                                                  </TEXTLINE>
+         <TEXTLINE>Client ID:0002                                    </TEXTLINE>
+         <TEXTLINE>                                                  </TEXTLINE>
+         <TEXTLINE>                                                  </TEXTLINE>
+         <TEXTLINE>12/30/16                                  18:33:54</TEXTLINE>
+         <TEXTLINE>                                                  </TEXTLINE>
+         <TEXTLINE>                                                  </TEXTLINE>
+         <TEXTLINE>                 SALE - CANCELLED                 </TEXTLINE>
+         <TEXTLINE>                   Invoice:123                    </TEXTLINE>
+         <TEXTLINE>                                                  </TEXTLINE>
+         <TEXTLINE>                                                  </TEXTLINE>
+         <TEXTLINE>Result:CANCELLED                                  </TEXTLINE>
+         <TEXTLINE>                                                  </TEXTLINE>
+         <TEXTLINE>                                                  </TEXTLINE>
+         <TEXTLINE>                                                  </TEXTLINE>
+         <TEXTLINE>Subtotal:                                USD$ 1.00</TEXTLINE>
+         <TEXTLINE>                                                  </TEXTLINE>
+         <TEXTLINE>Total:                                   USD$ 1.00</TEXTLINE>
+         <TEXTLINE>                                                  </TEXTLINE>
+         <TEXTLINE>                                                  </TEXTLINE>
+         <TEXTLINE>                                                  </TEXTLINE>
+         <TEXTLINE>                                                  </TEXTLINE>
+         <TEXTLINE>                                                  </TEXTLINE>
+         <TEXTLINE>              Transaction Cancelled               </TEXTLINE>
+         <TEXTLINE>                                                  </TEXTLINE>
+         <TEXTLINE>                                                  </TEXTLINE>
+         <TEXTLINE>                                                  </TEXTLINE>
+         <TEXTLINE>                                                  </TEXTLINE>
+         <TEXTLINE>                THANKS, COME AGAIN                </TEXTLINE>
+         <TEXTLINE>                    Courtesy:                     </TEXTLINE>
+         <TEXTLINE>                     VeriFone                     </TEXTLINE>
+      </RECEIPT>
+   </RECEIPT_DATA>
+</RESPONSE>
+
